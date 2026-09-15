@@ -4,10 +4,6 @@ import { BRAND_NAME, siteUrl } from "@/lib/config";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
-  title: {
-    default: BRAND_NAME,
-    template: `%s — ${BRAND_NAME}`,
-  },
   description:
     "Gioielleria artigianale di lusso: pezzi unici ispirati all'oreficeria etrusca e greca, realizzati a mano in un solo esemplare.",
   openGraph: {
